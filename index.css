@@ -38,13 +38,13 @@ body{
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    width: 95%;
-    height: 70vh;
+    width: 97%;
+    height: 65vh;
     background-color: #ffffffa4;
 }
 .element{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -20%);
     z-index: 1;
