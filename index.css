@@ -25,6 +25,7 @@ body{
     max-height: 100%;
 }
 .background-img{
+    top: 13vh;
     height: 75vh;
     width: 100%;
     background-image: url(./images/bg-image.jpg);
@@ -34,14 +35,14 @@ body{
     position: relative;
     opacity: .9;
 }
-.overlay-content{
+/* .overlay-content{
     position: absolute;
     left: 50%;
     transform: translate(-50%);
     width: 97%;
-    height: 75vh;
+    height: 10vh;
     background-color: #ffffffa4;
-}
+} */
 .element{
     position: absolute;
     top: 40%;
@@ -77,4 +78,7 @@ body{
     border: none;
     font-size: large;
     color: #fff;
+}
+.verify-btn:hover{
+    opacity: .6;
 }
