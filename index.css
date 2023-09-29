@@ -16,16 +16,16 @@ body{
     padding-right: 10px;
 }
 .ministry-logo img{
-    max-width: 100%;
+    max-width: 50%;
     max-height: 100%;
     float: right;
 }
 .afan-logo img{
-    max-width: 100%;
+    max-width: 50%;
     max-height: 100%;
 }
 .background-img{
-    height: 81vh;
+    height: 75vh;
     width: 100%;
     background-image: url(./images/bg-image.jpg);
     background-size: cover;
@@ -39,7 +39,7 @@ body{
     left: 50%;
     transform: translate(-50%);
     width: 90%;
-    height: 75vh;
+    height: 60vh;
     background-color: #ffffffa4;
 }
 .element{
