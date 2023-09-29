@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+.Navigation .wrapper{
+    border-bottom: solid #dae6e060 4px;
+    background-color: #fff;
+    max-width: 100%;
+    max-height: 19vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.ministry-logo img{
+    max-width: 100%;
+    max-height: 100%;
+    float: right;
+}
+.afan-logo img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.background-img{
+    height: 81vh;
+    width: 100%;
+    background-image: url(./images/bg-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: .9;
+}
+.overlay-content{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 90%;
+    height: 75vh;
+    background-color: #ffffffa4;
+}
+.element{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    z-index: 1;
+    width: 90%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,02);
+    border-radius: 10px;
+    background-color: #fff;
+}
+.element form{
+    position: relative;
+    padding: 10px;
+}
+.title-header{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: darkgreen;
+    color: #fff;
+}
+.title-header h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+.verify-btn{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: darkgreen;
+    border: none;
+    font-size: large;
+    color: #fff;
+}
