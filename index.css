@@ -25,7 +25,7 @@ body{
     max-height: 100%;
 }
 .background-img{
-    height: 80vh;
+    height: 85vh;
     width: 100%;
     background-image: url(./images/bg-image.jpg);
     background-size: cover;
