@@ -105,9 +105,130 @@
                     </div>
                   </div>
                 </form>
+
+                <form action="" id="Form-three">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="mb-3">
+                          <label for="" class="form-label label-disable" >Account Number</label>
+                          <input type="tel" id="" class="form-control" pattern="[0-9]{10}"  required>
+                        </div>
+
+                        <div class="mb-3">
+                          <label for="" class="form-label label-disable" >Bank Name</label>
+                          <input type="text" id="" class="form-control">
+                        </div>
+
+                        <div class="mb-3">
+                          <label for="" class="form-label label-disable" >Account Name</label>
+                          <input type="text" id="" class="form-control" required>
+                        </div>
+                      </div>
+
+                      <div class="col-8">
+                        <button type="submit"class="mt-4 verify-btn">Proceed</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+
+                <form action="" id="Form-four">
+                  <div class="container">
+                    <div class="row">
+                      <h3 style="text-align: center;">DISBURSEMENT FEE</h3>
+                      <div class="col-12">
+                        <p>
+                          DEAR BENEFICIARY YOU ARE REQUIRED TO PAY SUM OF ₦2,000 DISBURSEMENT FEE TO THE RURAL REVITALIZATION ACCOUNT
+                        </p>
+                      </div><hr>
+                      <div class="col-1"></div>
+                      <div class="col-10 mb-3">
+                        <table>
+                          <thead>
+                            <tr>
+                              <th>Account Number</th>
+                              <th>8512525964</th>
+                            </tr>
+                            <tr>
+                              <th>Account Name</th>
+                              <th>AFAN PLINKS</th>
+                            </tr>
+                            <tr>
+                              <th>Bank Name</th>
+                              <th>STERLING BANK</th>
+                            </tr>
+                            <tr>
+                              <th>Payment Amount</th>
+                              <th>₦2000</th>
+                            </tr>
+                          </thead>
+                        </table>
+                      </div>
+                      <div class="col-1"></div>
+
+                      <div class="col-10">
+                       <div class="row">
+                          <div class="col-12">
+                            <p style="font-size: large; font-weight: 500;">
+                              Upload Your Payment Receipt
+                            </p>
+                          </div>
+                          <div class="col-12">
+                            <div class="mb-2">
+                              <input required type="file" class="form-control" name="" id="" placeholder="" aria-describedby="fileHelpId" style="font-weight: bold; border: solid #4f4d4d 1px;">
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="Terms_and_Conditions" required>
+                              <label class="form-check-label" for="Terms_and_Conditions">
+                               <h6>Agree With Our <a href="./privacy.html">Terms and Conditions</a></h6>
+                              </label>
+                            </div>
+                          </div>
+                       </div>
+                      </div>
+                      
+                      <div class="col-8">
+                        <button type="submit"class="verify-btn">Submit</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+                
             </div>
         </div>
     </div>
+    <!-- Modal trigger button -->
+    <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modalId" id="modal-success">
+      Launch
+    </button>
+    
+    <!-- Modal Body -->
+    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+    <div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content">
+          <div class="modal-header" style="background-color: darkgreen; color: white;">
+            <h5 class="modal-title" id="modalTitleId">AFAN DISBURSEMENT FEE</h5>
+          </div>
+          <div class="modal-body">
+            <h3 style="font-family: Georgia; color: darkgreen;">SUBMITTED SUCCESSFUL</h3>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: darkgreen; color: white;" id="window-exit">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <!-- Optional: Place to the bottom of scripts -->
+    <script>
+      const myModal = new bootstrap.Modal(document.getElementById('modalId'), options)
+    
+    </script>
   </main>
   <footer>
     <!-- place footer here -->
