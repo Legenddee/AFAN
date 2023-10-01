@@ -13,7 +13,7 @@
 
 <body>
   <header>
-    <section class="Navigation">
+    <section class="Navigation fixed-top">
         <div class="wrapper">
             <div class="afan-logo">
                 <img src="./images/Afan-logo.jpeg" alt="">
@@ -27,7 +27,7 @@
   <main id="Main-section" class="">
     <div class="background-img">
         <div class="overlay-content">
-            <div class="element mb-9">
+            <div class="element mb-5">
                 <div class="title-header mb-3">
                     <h4>FEDERAL MINISTRY OF AGRICULTURE AND RURAL 
                         DEVELOPMENT IN COLLABORATION WITH ALL FARMER'S
@@ -183,7 +183,7 @@
                             <div class="form-check">
                               <input class="form-check-input" type="checkbox" value="" id="Terms_and_Conditions" required>
                               <label class="form-check-label" for="Terms_and_Conditions">
-                               <h6>Agree With Our <a href="./privacy.html">Terms and Conditions</a></h6>
+                               <h6>Agree With Our <a  href="" data-bs-toggle="modal" data-bs-target="#modalprivacy">Terms and Conditions</a></h6>
                               </label>
                             </div>
                           </div>
@@ -200,13 +200,40 @@
             </div>
         </div>
     </div>
+<section class="">
+  <!-- AFAN Terms and Conditions -->
+  <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+  <div class="modal fade" id="modalprivacy" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: darkgreen; color: white;">
+          <h5 class="modal-title" id="modalTitleId">Terms and Conditions</h5>
+        </div>
+        <div class="modal-body">
+          <p style="font-size: 16px; font-family: arial;">
+            I do solemnly to abide by the terms and conditions of The Federal Ministry of Agriculture and Rural Development (FMARD) under the loan application as stated on FMARD website www.fmard.gov.ng. I shall pay back the loan stipulated 9% Single Digit Interest (SDI) rate as instructed by the Central Bank of Nigeria at the maturity (harvest) of my farm produce at the prevailing market price.
+        </p>
+        <ul style="font-size: 16px; font-family: arial;">
+            <li>I promise to be able to repay the loan in a required timely manner.</li>
+            <li> I the borrower agree to comply with all applicable laws and regulations.</li>
+            <li>Only upon payment of the disbursement fee guarantee disbursement of the loan to the farmers.</li>
+        </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: darkgreen; color: white;">Agree</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+
+
     <!-- Modal trigger button -->
-    <button type="button" class="btn  btn-lg" data-bs-toggle="modal" data-bs-target="#modalId" id="modal-success" style="background-color: white; color: white;">
-      Launch
+    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalId" id="modal-success" style="background-color: white; color: white;">
     </button>
-    
     <!-- Modal Body -->
-    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
     <div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
       <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
         <div class="modal-content">
@@ -217,7 +244,7 @@
             <h3 style="font-family: Georgia; color: darkgreen;">SUBMITTED SUCCESSFUL</h3>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: darkgreen; color: white;" id="window-exit">OK</button>
+            <!-- <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: darkgreen; color: white;" id="window-exit">OK</button> -->
           </div>
         </div>
       </div>

@@ -8,6 +8,7 @@ let userTitle = document.getElementById('form01-title');
 
 
 let verify_phone;
+// form01.style.display = 'none';
 form02.style.display = 'none';
 form03.style.display = 'none';
 form04.style.display = 'none';
