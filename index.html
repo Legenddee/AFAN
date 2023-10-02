@@ -27,6 +27,7 @@
   <main id="Main-section" class="">
     <div class="background-img">
         <div class="overlay-content">
+          </div>
             <div class="element mb-5">
                 <div class="title-header mb-3" id="Title">
                     <h4>FEDERAL MINISTRY OF AGRICULTURE AND RURAL 
@@ -38,8 +39,13 @@
                       <div class="row">
                         <div class="col-12">
                           <div class="">
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert" id="warning-alert">
+                              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            <strong>Hello!</strong> Access Not Granted Please Review Your Phone Number.
+                            </div>
+
                             <label for="phone-validation" class="form-label" style="font-weight: bold;font-size: large;">Enter Your Phone Number</label>
-                            <input type="tel" pattern="[0-9]{11}" required
+                            <input type="tel" required
                               class="form-control" name="" id="phone-validation-input" aria-describedby="helpId" placeholder="e.g 08031000030">
                           </div>
                         </div>
@@ -60,17 +66,17 @@
 
                             <div class="mb-3">
                               <label for="" class="form-label label-disable" >Applicant Name</label>
-                              <input type="text" id="" class="form-control" value="Legend" disabled>
+                              <input type="text" id="Applicant-Name" class="form-control" value="" disabled>
                             </div>
 
                             <div class="mb-3">
                               <label for="" class="form-label label-disable" >LGA Of Residence</label>
-                              <input type="text" id="" class="form-control" value="Akko" disabled>
+                              <input type="text" id="" class="form-control" value="ANAMBRA WEST" disabled>
                             </div>
 
                             <div class="mb-3">
                               <label for="" class="form-label label-disable" >Approve Loan Amount</label>
-                              <input type="text" id="" class="form-control" value="420,000.00" disabled>
+                              <input type="text" id="" class="form-control" value="480,000" disabled>
                             </div>
 
                             <div class="mb-3">
@@ -85,7 +91,7 @@
 
                             <div class="mb-3">
                               <label for="" class="form-label label-disable" >Phone Number</label>
-                              <input type="text" id="" class="form-control" value="09131313036" disabled>
+                              <input type="text" id="Phone-Number" class="form-control" value="" disabled>
                             </div>
 
                             <div class="mb-3">
@@ -94,7 +100,7 @@
                             </div>
                             <div class="mb-3">
                               <label for="" class="form-label label-disable" >Farm Produce</label>
-                              <input type="text" id="" class="form-control" value="Legend" disabled>
+                              <input type="text" id="Farm-Produce" class="form-control" value="" disabled>
                             </div>
                           </fieldset>
                       </div>
