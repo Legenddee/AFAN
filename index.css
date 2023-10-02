@@ -81,6 +81,9 @@ body{
     font-size: large;
     color: #fff;
 }
+#details-section input{
+    text-transform: uppercase;
+}
 
 
 .label-disable{
